@@ -1,0 +1,59 @@
+/* success.css */
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f8fb;
+    height: 100vh;
+}
+
+.back{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    padding: 10px;
+    color: #3e6d8d;
+}
+
+.back:hover{
+    color: #3e6d8d;
+}
+
+.success-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    color: #3e6d8d;
+    font-size: 60px;
+}
+
+@media (max-width: 768px){
+
+    h1{
+        font-size: 45px;
+        text-align: center;
+        padding: 20px;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    h1{
+        font-size: 32px;
+    }
+
+    .back{
+        top: 15px;
+        left: 15px;
+        font-size: 16px;
+    }
+
+}
